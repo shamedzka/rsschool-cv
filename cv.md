@@ -2,5 +2,5 @@
 * Contacts:
    * tel: +375259555792
    * e-mail: shamedzka@gmail.com
-   * [GitHub] https://github.com/shamedzka
+   * [GitHub](https://github.com/shamedzka)
    * Discord: shamedzka#7137
