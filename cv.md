@@ -1,6 +1,6 @@
 # Andrei Shamedzka
 * Contacts:
    * tel: +375259555792
-   * e-mail: shamedzka@gmaol.com
-   * [GitHub] (https://github.com/shamedzka)
+   * e-mail: shamedzka@gmail.com
+   * [GitHub] https://github.com/shamedzka
    * Discord: shamedzka#7137
