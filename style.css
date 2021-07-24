@@ -1,0 +1,12 @@
+.center {
+   width: 600px;
+   margin: 0px auto;
+   text-align: justify;
+   background-color: rgba(0, 255, 21, 0.2);
+}
+h2 {
+   background-color: rgba(212, 0, 255, 0.5);
+}
+.bottom-line {
+   border-bottom: 2px purple solid;
+}
