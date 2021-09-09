@@ -1,1 +1,1 @@
- https://shamedzka.github.io/rsschool-cv/
+https://shamedzka.io/rsschool-cv/
