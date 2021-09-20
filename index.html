@@ -15,18 +15,18 @@
 <body class="center">
    <main>
       <header>
-         </div>
-         <nav>
-            <ul class='menu'>
-               <li class="item"><a href="#contacts">Contacts</a></li>
-               <li class="item"><a href="#about">About me</a></li>
-               <li class="item"><a href="#skills">Skills</a></li>
-               <li class="item"><a href="#code">Code example</a></li>
-               <li class="item"><a href="#experience">Experience</a></li>
-               <li class="item"><a href="#projects">Projects</a></li>
-               <li class="item"><a href="#education">Education</a></li>
-            </ul>
-         </nav>
+         <div>
+            <nav>
+               <ul class='menu'>
+                  <li class="item"><a href="#contacts">Contacts</a></li>
+                  <li class="item"><a href="#about">About me</a></li>
+                  <li class="item"><a href="#skills">Skills</a></li>
+                  <li class="item"><a href="#code">Code example</a></li>
+                  <li class="item"><a href="#experience">Experience</a></li>
+                  <li class="item"><a href="#projects">Projects</a></li>
+                  <li class="item"><a href="#education">Education</a></li>
+               </ul>
+            </nav>
          </div>
          <img src="https://i.ibb.co/hKhWNTw/sf7ju-HSPKl-U.jpg" alt="photo">
          <h1>Andrei Shamedzka</h1>
@@ -59,33 +59,12 @@
       </ul>
       <h5 id="code">Code example</h5>
       <pre class='center'><code>
-         function head(array) {
-         return array[0];
-         }
-          
-         function tail(array) {
-         let i = 1;
-         let finalArray = [];
-         while (i < array.length) {
-         finalArray.push(array[i])
-         i = i + 1
-         }
-         return finalArray
-         }
-          
-         function init(array) {
-         let i = 0;
-         let finalArray = [];
-         while (i < array.length - 1) {
-         finalArray.push(array[i])
-         i = i + 1
-         }
-         return finalArray
-         }
-          
-         function last(array) {
-         return array[array.length - 1];
-         }</code></pre>
+         function highAndLow(numbers){
+            let array = numbers.split(' ').map(Number);
+             let max = Math.max.apply(null, array);
+             let min = Math.min.apply(null, array);
+             return `${max} ${min}`;   
+      </code></pre>
       <h6 id="experience">Experience</h6>
       <p>Throughout my career, since 2016, I have been working at the Center for Expertises and Tests in Healthcare:
       </p>
@@ -95,7 +74,7 @@
       </ul>
       <h5 id="projects">Projects</h5>
       <p class='project-image'><a href="https://rolling-scopes-school.github.io/shamedzka-JSFEPRESCHOOL/museum/"
-            target="_blank"><img src="museum.jpg" alt="Museum-project" width="90%"></a></p>
+            target="_blank"><img src="museum.jpg" alt="Museum-project"></a></p>
       <h6 id="education">Education</h6>
       <p>BS in Chemistry, Pharmaceutial practice from the Belarusian State University (2011-2016)</p>
    </main>
