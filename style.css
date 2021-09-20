@@ -98,4 +98,9 @@ body,
 }
 .project-image {
    background-color: rgba(0, 255, 21, 0.2);
+   width: 100%;
+   margin: auto;
+}
+.museum {
+   max-width: 100%;
 }
