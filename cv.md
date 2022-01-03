@@ -1,2 +1,3 @@
 Andrei Shamedzka
-shamedzka@gmail.com
+email: shamedzka@gmail.com
+English level: B1
